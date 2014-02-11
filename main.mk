@@ -10,8 +10,8 @@ all_hosts = [
   'ded-7.opssep.hosting.acquia.com|web|fs|db',
   'bal-8.opssep.hosting.acquia.com|bal',
   'bal-9.opssep.hosting.acquia.com|bal',
-  'svn-10.opssep.hosting.acuqia.com|svn',
-  'dns-11.opssep.hosting.acuqia.com|dns',
+  'svn-10.opssep.hosting.acquia.com|svn',
+  'dns-11.opssep.hosting.acquia.com|dns',
 ]
 
 # Set global parameters
