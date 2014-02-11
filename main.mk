@@ -19,4 +19,4 @@ check_parameters = [
   ( (90, 95), all_hosts, [ "fs_" ]),
 ]
 
-debug_log=/mnt/tmp/cmk.debug
+#debug_log=/mnt/tmp/cmk.debug
