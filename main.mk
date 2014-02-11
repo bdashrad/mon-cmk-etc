@@ -2,7 +2,6 @@
 # all_hosts = [ 'localhost' ]
 all_hosts = [
   'localhost|mon',
-#  'mon-2.opssep.hosting.acquia.com|mon',
   'monui-3.opssep.hosting.acquia.com|monui',
   'web-4.opssep.hosting.acquia.com|web',
   'backup-5.opssep.hosting.acquia.com|web',
