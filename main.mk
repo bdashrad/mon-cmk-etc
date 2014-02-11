@@ -1,6 +1,18 @@
 # Put your host names here
 # all_hosts = [ 'localhost' ]
-all_hosts = [ 'localhost','web-4.opssep.hosting.acquia.com' ]
+all_hosts = [
+  'localhost|mon',
+  'mon-2.opssep.hosting.acquia.com|mon',
+  'monui-3.opssep.hosting.acquia.com|monui',
+  'web-4.opssep.hosting.acquia.com|web',
+  'backup-5.opssep.hosting.acquia.com|web',
+  'ded-6.opssep.hosting.acquia.com|web|fs|db',
+  'ded-7.opssep.hosting.acquia.com|web|fs|db',
+  'bal-8.opssep.hosting.acquia.com|bal',
+  'bal-9.opssep.hosting.acquia.com|bal',
+  'svn-10.opssep.hosting.acuqia.com|svn',
+  'dns-11.opssep.hosting.acuqia.com|dns',
+]
 
 # Set global parameters
 check_parameters = [
