@@ -18,3 +18,5 @@ check_parameters = [
   # Filesystem checks - Warn 90% Crit 95%
   ( (90, 95), all_hosts, [ "fs_" ]),
 ]
+
+debug_log=/mnt/tmp/cmk.debug
