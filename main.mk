@@ -19,4 +19,16 @@ check_parameters = [
   ( (90, 95), all_hosts, [ "fs_" ]),
 ]
 
+# Set Service checks by server type
+checks = [
+  ( [ "web" ], all_hosts, "ps", {
+                                  "process": "/usr/sbin/apache2",
+                                  "warnmin": "1",
+                                  "warnmax": "100",
+                                  "okmin": "1",
+                                  "okmax": "1000",
+                                }
+  ),
+]
+
 #debug_log=/mnt/tmp/cmk.debug
